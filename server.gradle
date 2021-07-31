@@ -1,0 +1,11 @@
+ext {
+    dev = [
+            baseUrl              : "\"https://rq7vdjqipi.execute-api.us-east-1.amazonaws.com/develop/\"",
+
+    ]
+
+    prod = [
+            baseUrl              : "\"https://c9hby8ayw1.execute-api.ap-south-1.amazonaws.com/production/\"",
+
+    ]
+}

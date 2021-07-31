@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648462572919",
+    "project_id": "dev-krone",
+    "storage_bucket": "dev-krone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648462572919:android:ca74280ca37d4a2a6b9572",
+        "android_client_info": {
+          "package_name": "com.zimozi.assessment.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648462572919-7frqk3p2bc2a1oomvfcqqpflkrqqovg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqdsdEqoiQqlCttTyBmUkJFFIMtQZdly-pwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648462572919-7frqk3p2bc2a1oomvfcqqpflkrqqovg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

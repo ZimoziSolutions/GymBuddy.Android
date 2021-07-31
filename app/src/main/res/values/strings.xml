@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_new_name">AndroidDesignTemplateEg</string>
+    <string name="error_title">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="agreeTerms">I agree to <u>Terms of use</u>.</string>
+    <string name="take_photo">Take Photos</string>
+    <string name="no_storage_permission">No Storage Permission</string>
+    <string name="no_camera_permission">No Camera Permission</string>
+    <string name="loading">Loading…</string>
+    <string name="style_rounded">rounded_box</string>
+    <!-- Error String -->
+    <string name="error_no_network_connection">No network connection.</string>
+    <string name="error_invalid_email">Hey, we need a valid email address from you.</string>
+    <string name="error_email_not_exist">Email does not exist.</string>
+    <string name="error_wrong_password">The password is wrong.</string>
+    <string name="error_email_already_exist">Email already exists.</string>
+    <string name="error_unknown">Unknown error.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="hello">Hello, Tina</string>
+    <string name="fewmoredetails">Few More Details</string>
+    <string name="upp">Update Profile Picture</string>
+    <string name="chooseyourlocation">Choose Your Location</string>
+    <string name="abouttext">Need App puts the power to save lives in the palm of your hand. Donating blood is easier than ever. Find nearby Donors, can call, raise a blood request for Donors, follow your blood’s journey from donation through delivery (when possible), and create or join a lifesaving team.</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="title_activity_hello_navigation_drawer">HelloNavigationDrawer</string>
+    <string name="mydetails">My Details</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="needfirst">Need</string>
+    <string name="enter">Enter</string>
+    <string name="thankyoureq">Thank you for requesting for Blood.</string>
+    <string name="indiannum">+91</string>
+    <string name="call">Call</string>
+    <string name="Chooselocation">Choose Your Location</string>
+    <string name="locationfilter">Location filter helps you to find doner\n near you easily</string>
+    <string name="cityone">Ujjain</string>
+    <string name="citytwo">Indore</string>
+    <string name="citythree">Bhopal</string>
+    <string name="cityfour">Ayodhya</string>
+    <string name="submits">Submit</string>
+    <string name="logout">Log Out</string>
+    <string name="notification">Notification</string>
+    <string name="feedback">Feedback</string>
+    <string name="returnlogin">You will be returned to the login \nScreen</string>
+    <string name="updatedonation">Update Donation</string>
+    <string name="thankyou">THANK YOU</string>
+    <string name="saveforfuture">We save It for future</string>
+    <string name="savea">Save</string>
+    <string name="savedate">Save date when you donated</string>
+    <string name="citypreference">City Preference</string>
+    <string name="ifnotabove">(If not above Please select below)</string>
+    <string name="statepreference">State Preference</string>
+    <string name="citypreferencea">City Preference</string>
+    <string name="requestedforrelative">Requested for Relative Vikas Mehta</string>
+
+    <string name="facebook_app_id">309463634140453</string>
+    <string name="fb_login_protocol_scheme">fb309463634140453</string>
+
+
+</resources>

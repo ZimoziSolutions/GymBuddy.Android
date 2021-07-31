@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/orange_krone_text</item>
+        <item name="colorAccent">@color/light_pink_krone_btn</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="pinViewStyle">@style/PinWidget.PinView</item>
+         <item name="android:statusBarColor">@color/black</item>
+     </style>
+    -->
+    <!--    <style name="Theme_Dialog" parent="android:Theme.Holo.Dialog">-->
+    <!--        <item name="android:windowMinWidthMajor">90%</item>-->
+    <!--        <item name="android:windowMinWidthMinor">90%</item>-->
+    <!--    </style>-->
+
+
+    <style name="ClickableView">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+<!--
+    <style name="AppTheme.TextAppearance" parent="android:TextAppearance">
+        &lt;!&ndash;<item name="android:textColor">@color/text_color</item>&ndash;&gt;
+        <item name="android:textSize">@dimen/sp_16</item>
+        &lt;!&ndash;<item name="android:lineSpacingExtra">4dp</item>&ndash;&gt;
+        &lt;!&ndash;<item name="android:textColorLink">@color/blue</item>&ndash;&gt;
+    </style>
+-->
+
+ <!--   <style name="TextAppearance.Regular" parent="AppTheme.TextAppearance">
+        &lt;!&ndash;        <item name="fontPath">@string/Montserrat_Regular</item>&ndash;&gt;
+    </style>
+
+-->
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+
+
+    </style>
+<!--
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>-->
+
+<!--
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+-->
+</resources>

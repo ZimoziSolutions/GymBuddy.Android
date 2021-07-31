@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="@dimen/_165sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/colorPrimary"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_map"
+                android:layout_width="@dimen/_165sdp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/map"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_gym_image"
+                android:layout_width="@dimen/_168sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gym_rebel"
+                android:layout_marginBottom="-7dp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_map"
+                app:layout_constraintEnd_toEndOf="@id/iv_map"
+                app:layout_constraintStart_toStartOf="@id/iv_map" />
+
+
+            <com.like.LikeButton
+                android:id="@+id/btn_like_gym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:layout_marginEnd="-15dp"
+                android:adjustViewBounds="true"
+                android:animateLayoutChanges="false"
+                android:soundEffectsEnabled="true"
+                app:icon_size="@dimen/_17sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_gym_image"
+                app:like_drawable="@drawable/ic_favorite_selected"
+                app:unlike_drawable="@drawable/ic_favorite" />
+
+            <TextView
+                android:id="@+id/tv_gym_name"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:lines="1"
+                android:maxWidth="@dimen/_120sdp"
+                android:maxLines="1"
+                android:text="Gym Rebel"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_gym_image" />
+
+
+            <TextView
+                android:id="@+id/tv_gym_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="$20"
+                android:textColor="@color/frenchBlue"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_gym_image" />
+
+
+            <TextView
+                android:id="@+id/tv_label_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="/day"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_gym_cost" />
+
+
+            <ImageView
+                android:id="@+id/iv_star_icon"
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:src="@drawable/ic_star_filled"
+                android:tint="@color/orange_yellow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_label_1" />
+
+
+            <TextView
+                android:id="@+id/tv_gym_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="5.5"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintStart_toEndOf="@id/iv_star_icon"
+                app:layout_constraintTop_toBottomOf="@id/tv_label_1" />
+
+            <TextView
+                android:id="@+id/tv_gym_time"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="01 Aug - 30 Aug, 2020"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_label_1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

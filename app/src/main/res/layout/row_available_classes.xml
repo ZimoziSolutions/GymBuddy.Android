@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@color/colorPrimary"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/iv_class_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fitness_class"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.like.LikeButton
+                android:id="@+id/btn_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="-15dp"
+                android:adjustViewBounds="true"
+                android:animateLayoutChanges="false"
+                android:soundEffectsEnabled="true"
+                app:icon_size="@dimen/_17sdp"
+                app:layout_constraintEnd_toEndOf="@id/iv_class_image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:like_drawable="@drawable/ic_favorite_selected"
+                app:unlike_drawable="@drawable/ic_favorite" />
+
+            <TextView
+                android:id="@+id/tv_class_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:lines="1"
+                android:maxWidth="@dimen/_135sdp"
+                android:maxLines="1"
+                android:text="Fitness Class"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/iv_class_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_gym_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="$20"
+                android:textColor="@color/frenchBlue"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_label_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="/day"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_gym_cost" />
+
+
+            <TextView
+                android:id="@+id/tv_gym_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Gym Seven"
+                app:layout_constraintStart_toEndOf="@id/iv_class_image"
+                app:layout_constraintTop_toBottomOf="@id/tv_class_title" />
+
+
+            <TextView
+                android:id="@+id/tv_class_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableTint="@color/frenchBlue"
+                android:text="London, Sufflok st.4"
+                app:layout_constraintStart_toEndOf="@id/iv_class_image"
+                app:layout_constraintTop_toBottomOf="@id/tv_gym_name" />
+
+            <TextView
+                android:id="@+id/tv_class_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:drawableLeft="@drawable/ic_watch"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableTint="@color/frenchBlue"
+                android:text="1h 25min"
+                app:layout_constraintStart_toEndOf="@id/iv_class_image"
+                app:layout_constraintTop_toBottomOf="@id/tv_class_address" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
