@@ -1,1 +1,1 @@
-# GymBuddy.Android
+# GymBuddy.Android.UI.Showcase
